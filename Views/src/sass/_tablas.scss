@@ -1,0 +1,32 @@
+@import 'variables';
+
+.tabla{
+    width:80%;
+    height: auto;
+    margin-bottom: 40px;
+    border-collapse:collapse;
+    border-radius: 10px;
+   
+    thead {        
+        background-color:$oldrose;
+    }
+    td,th{
+        border: 2px solid $enfasis ;
+        padding: 10px;
+        text-align: center;
+               
+    }
+    tbody{
+       
+        tr:hover{
+            background: $gris;
+        }
+        tr:nth-child(even){
+            background-color:$enfasis;
+            &:hover{
+                background-color: $gris;
+            }
+        }
+    } 
+
+}

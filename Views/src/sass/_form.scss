@@ -1,0 +1,53 @@
+@import 'variables';
+
+.content-form{
+    width: 50%;
+    padding: 30px;
+    background-color: $enfasis;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .content2{
+        
+        display: flex;
+        flex-direction: row;
+        .izq, .der {
+            margin: 20px 20px;
+
+        }
+        
+    }
+
+
+    
+    
+
+
+}
+form {
+    input {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 10px;   
+        color:black;
+        font-size: 13pt;
+        border-radius: 10px; 
+    }
+    button{
+        margin-left: 20px;
+        padding: 20px;
+        background-color:$gris;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px ;
+        font-weight: 600;
+        
+        &:hover {
+            background-color:$oldrose;
+            transition: ease-in-out .5s ;
+        }
+        
+        
+    }
+}
